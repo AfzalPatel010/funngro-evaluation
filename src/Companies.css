@@ -1,0 +1,417 @@
+/* ================= COMPANY PAGE ================= */
+
+.companies-page {
+  background: #ffffff;
+  color: #172033;
+  min-height: 100vh;
+}
+
+/* ================= HERO ================= */
+
+.company-hero {
+  min-height: 650px;
+  padding: 90px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+  background: linear-gradient(135deg, #fff8f5, #ffffff);
+}
+
+.company-hero-content {
+  max-width: 620px;
+}
+
+.company-badge {
+  display: inline-block;
+  background: #fff0eb;
+  color: #ff5c35;
+  padding: 9px 16px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.company-hero h1 {
+  font-size: clamp(45px, 6vw, 72px);
+  line-height: 1.05;
+  letter-spacing: -3px;
+  margin-bottom: 25px;
+}
+
+.company-hero h1 span {
+  color: #ff5c35;
+}
+
+.company-hero-content > p {
+  color: #697184;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+
+.company-buttons {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.company-primary {
+  background: #ff5c35;
+  color: #ffffff;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 15px;
+  box-shadow: 0 8px 25px rgba(255, 92, 53, 0.22);
+  transition: 0.3s;
+}
+
+.company-primary:hover {
+  transform: translateY(-3px);
+}
+
+.company-secondary {
+  background: white;
+  color: #20263a;
+  border: 1px solid #dedede;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+/* ================= COMPANY VISUAL ================= */
+
+.company-visual {
+  width: 420px;
+  height: 410px;
+  background: #172033;
+  border-radius: 28px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 30px 70px rgba(22, 31, 52, 0.18);
+}
+
+.company-main-card {
+  width: 290px;
+  background: white;
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.16);
+}
+
+.company-card-icon {
+  width: 58px;
+  height: 58px;
+  background: #fff0eb;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+.company-main-card h3 {
+  font-size: 23px;
+  margin-bottom: 12px;
+}
+
+.company-main-card p {
+  color: #747c8d;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 22px;
+}
+
+.talent-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.talent-row div {
+  width: 42px;
+  height: 42px;
+  background: #f4f5f7;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-main-card > span {
+  color: #777f90;
+  font-size: 12px;
+}
+
+.company-floating {
+  position: absolute;
+  background: white;
+  padding: 13px 18px;
+  border-radius: 12px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.floating-top {
+  top: 45px;
+  left: -35px;
+}
+
+.floating-bottom {
+  bottom: 45px;
+  right: -40px;
+}
+
+/* ================= SECTIONS ================= */
+
+.company-section {
+  padding: 100px 8%;
+}
+
+.company-heading {
+  max-width: 680px;
+  text-align: center;
+  margin: 0 auto 55px;
+}
+
+.company-heading span {
+  color: #ff5c35;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.company-heading h2 {
+  font-size: 42px;
+  line-height: 1.15;
+  letter-spacing: -1.5px;
+  margin: 14px 0;
+}
+
+.company-heading p {
+  color: #747c8d;
+  line-height: 1.7;
+}
+
+/* ================= BENEFITS ================= */
+
+.benefit-grid {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.benefit-card {
+  padding: 30px;
+  border: 1px solid #eeeeee;
+  border-radius: 18px;
+  transition: 0.3s;
+}
+
+.benefit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.07);
+}
+
+.benefit-icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 14px;
+  background: #fff0eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.benefit-card h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.benefit-card p {
+  color: #747c8d;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* ================= SERVICES ================= */
+
+.company-services {
+  background: #f8f9fb;
+}
+
+.service-grid {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.service-card {
+  background: white;
+  padding: 32px;
+  border-radius: 18px;
+  border: 1px solid #eeeeee;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+}
+
+.service-card span {
+  color: #ff5c35;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.service-card h3 {
+  margin: 18px 0 10px;
+  font-size: 21px;
+}
+
+.service-card p {
+  color: #747c8d;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* ================= COMPANY STEPS ================= */
+
+.company-steps {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.company-steps > div {
+  padding: 28px;
+  border-left: 3px solid #ff5c35;
+  background: #fafafa;
+}
+
+.company-steps strong {
+  color: #ff5c35;
+}
+
+.company-steps h3 {
+  font-size: 17px;
+  margin: 15px 0 10px;
+}
+
+.company-steps p {
+  color: #747c8d;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* ================= CTA ================= */
+
+.company-cta {
+  margin: 30px 8% 80px;
+  padding: 75px 30px;
+  text-align: center;
+  background: #172033;
+  color: white;
+  border-radius: 28px;
+}
+
+.company-cta h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.company-cta p {
+  color: #b9bfcc;
+  margin-bottom: 30px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 1000px) {
+
+  .company-hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .company-hero-content > p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .company-buttons {
+    justify-content: center;
+  }
+
+  .benefit-grid,
+  .company-steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .company-hero {
+    padding: 60px 5%;
+  }
+
+  .company-hero h1 {
+    font-size: 45px;
+  }
+
+  .company-visual {
+    width: 100%;
+    height: 360px;
+  }
+
+  .company-main-card {
+    width: 260px;
+  }
+
+  .floating-top {
+    left: 5px;
+  }
+
+  .floating-bottom {
+    right: 5px;
+  }
+
+  .company-section {
+    padding: 70px 5%;
+  }
+
+  .company-heading h2 {
+    font-size: 32px;
+  }
+
+  .benefit-grid,
+  .service-grid,
+  .company-steps {
+    grid-template-columns: 1fr;
+  }
+
+  .company-cta {
+    margin: 20px 5% 50px;
+  }
+
+  .company-cta h2 {
+    font-size: 30px;
+  }
+}
